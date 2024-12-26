@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-repeat: no-repeat; width: 100%; height: 650px;
+        background: hsla(43, 83%, 93%, 1);
+background: linear-gradient(90deg, hsla(43, 83%, 93%, 1) 0%, hsla(305, 64%, 83%, 1) 50%, hsla(289, 79%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(43, 83%, 93%, 1) 0%, hsla(305, 64%, 83%, 1) 50%, hsla(289, 79%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(43, 83%, 93%, 1) 0%, hsla(305, 64%, 83%, 1) 50%, hsla(289, 79%, 68%, 1) 100%);
+background-repeat: no-repeat;
+    }
+    .main-contenar{ 
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        box-sizing: border-box;
+        border: 3px solid;
+        width: 400px;
+        height: 400px;
+        border-radius: 4px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    body{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .btn{
+        width: 177px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        transition: 0.5s;
+        
+
+
+    }
+    .btn:hover{
+        background-color:rgb(235, 26, 61);
+        box-shadow: 0 0 25px rgb(241, 14, 52), 0 0 50px rgb(228, 35, 35);
+        color: white;
+    }
+    .input{
+        height: 22px;
+        width: 172px;
+        border: none;
+        border-radius: 3px;
+        
+    }
+    .href{
+        text-decoration: none;
+    }
+    .btn{
+        transition: 0.5s;
+    }
+</style>
+<body>
+    <div class="main-contenar">
+
+            <form>
+            <div>
+                <label>Username:</label><br>
+                <input type="text" required class="input">
+            </div>
+            <div>
+                <label>Password:</label><br>
+                <input type="password" required class="input">
+            </div><br>
+            <button class="btn">Submit</button>
+            <br>
+            <a class="href" href="@">Sing-in</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="href" href="@">Forgot Password</a>
+            </form>
+    </div>
+    
+</body>
+</html>
